@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="islam.jpg">
+    <title>Islamic Poems</title>
+    <style>
+     
+        body{
+            margin: 10px;
+        }
+        .tabs{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 6000px;
+            font-family: sans-serif;
+            
+        }
+        .tabs__label{
+            padding: 10px 16px;
+            cursor: pointer;
+        }
+        .tabs__radio{
+            display: none;
+
+        }
+        .tabs__content{
+            order: 1;
+            width: 100%;
+            /*border-bottom: 3px solid #dddddd;
+            line-height: 1.5;*/
+            font-size: 0.9em;
+            display: none;
+            color: rgb(65, 204, 0);
+        }
+
+        .tabs__radio:checked+.tabs__label{
+            font-weight: bold;
+            color: #009578;
+            border-bottom: 2px solid #009578;
+        }
+        .tabs__radio:checked+.tabs__label+.tabs__content{
+            display: initial;
+
+        }
+
+        .img{
+             max-width: 100%; /* Set width */
+            height: 200px; /* Set height */
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        
+        <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+        <label for="tab1" class="tabs__label">Limerick #1</label>
+        <div class="tabs__content">
+          <p>You are the Almighty</p>  
+          <p>to You I do worship for you are Worthy</p> 
+          <p> The one and only You are, ow Allah</p>
+          <p>From sky to sea, all others, even Guatemala</p>
+          <p>all are YOURS, for YOU only am I healthy.</p> 
+        </div>
+        <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+        <label for="tab2" class="tabs__label">Limerick #2</label>
+        <div class="tabs__content">
+        <p>Whatever I have today</p>     
+        <p>My eternal thanks to Him I must say</p>        
+        <p>there is no God but Allah(swt)</p>    
+        <p>As I chant Alhamdullilah</p>        
+        <p>But not before I deliberately pray five times a day</p>           
+        </div>
+        <input type="radio" class="tabs__radio" name="tabs-example" id="tab3">
+        <label for="tab3" class="tabs__label">Limerick #3</label>
+        <div class="tabs__content">
+            <p>I am not as ugly as poeple say it to be</p>
+            <p>Beauty does exist within me</p>
+            <p>Allah(swt) made me that way</p>
+            <p>Alhamdullilah as I say</p>
+            <p>As I surrender to Him, I am beautiful and free.</p>
+        </div>
+        <input type="radio" class="tabs__radio" name="tabs-example" id="tab4">
+        <label for="tab4" class="tabs__label">Limerick #4</label>
+        <div class="tabs__content">
+            <p>World is full of fitna</p>
+            <p>Everywhere there is zina</p>
+            <p>Ow Muslims restrain yourself completely</p>
+            <p>Practice Islam efficiently</p>
+            <p>for every limited time you are gonna be in this duniya</p>
+        </div>
+        <input type="radio" class="tabs__radio" name="tabs-example" id="tab5">
+        <label for="tab5" class="tabs__label">On Muhammad(SAW)</label>
+        <div class="tabs__content">
+            <p>You are the greatest human being</p>
+            <p>He sent to us so that believers be succeeding</p>
+            <p>Peace be upon you Muhammad, Ya Rasool</p>
+            <p>He who disregards you is a damned fool</p>
+            <p>You are Allah's Messenger, whom He is always blessing.</p>
+        </div>
+        <input type="radio" class="tabs__radio" name="tabs-example" id="tab6">
+        <label for="tab6" class="tabs__label">Limerick #5</label>
+        <div class="tabs__content">
+            <p>Those who question Allah's existence</p>
+            <p>Have they not even the slightest common sense</p>
+            <p>The signs are there</p>
+            <p>Have you no fear</p>
+            <p>Upon death, grave punishment awaits on His divine presence.</p>
+        </div>
+
+        <div class="img">
+            <img src="oma.jpg" alt="">
+        </div>
+        <h1>Written by: Deepto Osman</h1>
+        
+    </div>
+ 
+    
+</body>
+</html>
